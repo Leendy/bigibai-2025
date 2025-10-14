@@ -6,6 +6,7 @@ dist/
 
 # dependencies
 node_modules/
+pnpm-workspace.yaml
 
 # logs
 npm-debug.log*
@@ -15,6 +16,9 @@ pnpm-debug.log*
 
 # environment variables
 .env
+.env.local
+.env.development
+.env.test
 .env.production
 
 # macOS-specific files
@@ -22,3 +26,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# instructions for GitHub
+.github/
